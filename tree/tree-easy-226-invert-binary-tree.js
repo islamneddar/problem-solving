@@ -10,10 +10,10 @@
  * @param {TreeNode} root
  * @return {TreeNode}
  */
-var invertTree = function(root) {
+const invertTree = function (root) {
 
-    function invertTreeRecursive(head){
-        if(head === null) return
+    function invertTreeRecursive(head) {
+        if (head === null) return
         const rightTemp = head.right
         head.right = head.left
         head.left = rightTemp
