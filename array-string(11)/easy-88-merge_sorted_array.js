@@ -5,6 +5,10 @@
  * @param {number} n
  * @return {void} Do not return anything, modify nums1 in-place instead.
  */
+
+/*
+idea : put the bigger number at the end of the array
+ */
 var merge = function(nums1, m, nums2, n) {
     let midx = m - 1;
     let nidx = n - 1;

@@ -1,3 +1,10 @@
+/*
+idea :
+1. reverse the array
+2. reverse the first k elements
+3. reverse the rest of the elements
+ */
+
 var rotate = function(nums, k) {
     k %= nums.length;
 
@@ -15,6 +22,7 @@ var rotate = function(nums, k) {
 };
 
 /*
+idea
     k
 [7,6,5,4,3,2,1]
  # # * * * * *

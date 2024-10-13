@@ -3,6 +3,14 @@
  * @param {number} val
  * @return {number}
  */
+/*
+idea :
+- we will use two pointer technique
+- we will iterate over the array
+- if we find a number that is not equal to val, we will put it at the k index
+- k will be incremented by 1
+- finally we will return k
+ */
 var removeElement = function(nums, val) {
     let k = 0
     for(let i = 0; i< nums.length; i++){
